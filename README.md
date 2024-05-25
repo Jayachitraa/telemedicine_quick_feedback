@@ -15,7 +15,7 @@ To run this project on your local machine, follow these steps:
 
 2. Move to the project directory:
     ```
-    cd webhookify
+    cd webhookify/webby/
     ```
 
 3. Install the requirements:

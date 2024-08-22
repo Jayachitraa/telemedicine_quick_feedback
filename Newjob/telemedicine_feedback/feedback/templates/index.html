@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>New Page</h1>
+    <ul>
+        {% for x in feedback %}
+        <li>{{ x.user_name }} 
+            {{ x.session_id }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
